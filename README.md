@@ -1,4 +1,4 @@
-# Overview of Otto's data engineer assignment for Telekom
+![image](https://github.com/user-attachments/assets/9f6a511f-b6dc-4f8a-be03-050488d80831)# Overview of Otto's data engineer assignment for Telekom
 
 Due to issues with the provided model, I developed a new model in `new_training.py`, which generates the file `new_model.joblib`. Although this new model does not provide accurate predictions,the project coordinator advised me to create a simple model for generating predictions for further processing. The effectiveness of the model is not crucial for the tasks.
 
@@ -39,6 +39,8 @@ I created an API access point using Flask, located in `flask_api.py`, which incl
 
 The Flask application retrieves data from the file `data_testing_testing.csv`. The data in this file is accessible through the access point `get_house_info`. 
 
+![image](https://github.com/user-attachments/assets/054ea9ca-c548-43d9-9e18-fecee2e6b250)
+
 This is just a demonstration, but a better usage example would be a case where I retrieve information from an SQLite database and distribute it to other systems via an API. Since the SQLite database is actually just a single file, it is not recommended to perform extractions from multiple devices. However, an alternative solution like this could allow us to retrieve information from multiple devices.
 
 To run the Flask application:
@@ -53,3 +55,6 @@ To run the Flask application:
 ### Logging and Exception Handling
 
 The logging and exception handling mechanisms are used to capture and record any errors, warnings, or informational messages that occur during the execution of the code. This allows for better debugging and troubleshooting of issues, as well as providing a record of system events and errors for auditing and compliance purposes. Additionally, logging and exception handling can help to prevent unexpected behavior and crashes by catching and handling errors before they cause the program to terminate.
+
+![image](https://github.com/user-attachments/assets/2ad5b0d4-625d-48ab-921e-1acb9d57fd49)
+
