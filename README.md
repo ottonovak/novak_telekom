@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9f6a511f-b6dc-4f8a-be03-050488d80831)# Overview of Otto's data engineer assignment for Telekom
+# Overview of Otto's data engineer assignment for Telekom
 
 Due to issues with the provided model, I developed a new model in `new_training.py`, which generates the file `new_model.joblib`. Although this new model does not provide accurate predictions,the project coordinator advised me to create a simple model for generating predictions for further processing. The effectiveness of the model is not crucial for the tasks.
 
